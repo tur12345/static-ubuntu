@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . /app
 
 # Install dependensi proyek dari berkas requirements.txt
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 # Expose port yang akan digunakan oleh aplikasi Flask
 EXPOSE 9000
